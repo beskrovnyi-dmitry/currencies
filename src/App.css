@@ -1,5 +1,25 @@
 .App {
-  text-align: center;
+  text-align: start;
+}
+.container{
+  padding: 30px;
+  margin: 20px;
+  background-color: #bcbdc029;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px black;
+}
+
+.currencyItem{
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 20px
+}
+
+.desc{ 
+  width: 100px; 
+  font-weight: 700; 
 }
 
 .App-logo {
